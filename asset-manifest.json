@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/moviepedia/static/css/main.9ecdf044.css",
+    "main.js": "/moviepedia/static/js/main.0286278b.js",
+    "index.html": "/moviepedia/index.html",
+    "main.9ecdf044.css.map": "/moviepedia/static/css/main.9ecdf044.css.map",
+    "main.0286278b.js.map": "/moviepedia/static/js/main.0286278b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ecdf044.css",
+    "static/js/main.0286278b.js"
+  ]
+}
