@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# React MOVIEPEDIA 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1.기술
+ - html
+ - css
+ - react.js
+ 
+<br/>
 
-## Available Scripts
+2.느낀점 
+<br/><br/>
+api가 없을 땐, 정보를 어떻게 불러와야할까? 에 대한 고민이 있었다. 백엔드를 구축할 힘이 아직은 존재하지 않기 때문이다. 이번 학습을 통해서 api가 없을 땐, json 파일을 직접 만들어서 가볍게 프로젝트를 진행 할 수 있다는 걸 배웠다. 비록 정보를 수집하고 일일이 만드는 것에 시간이 투자되겠지만 내가 하고 싶은 것에 대한 api가 없거나 따오지 못하는 상황일 때는 이런 식으로 진행하면 되겠다는 자신감이 붙었다. 리액트 세 번째 프로젝트다. 비록 하나씩 따라치는 것이 전부지만 저번보단 (얄팍하게나마) 쌓인 지식이 있어서 뿌듯하다. 사실 나는 hook 쓰는 법을 아는 듯 모르는 듯, 모르는 듯 아는 상태었는데 이번에 hook를 쓰는 규칙과 의미 그리고 어떻게 사용하는 것이 좋은 방법인지에 대해 알게 되었다. 또한 리액트 안에 사용되는 useContext에 대해서도 배우게 되었고 배울수록 흥미가 붙는듯하다. 선수로 들은 강의와 이 강의에서 배운 내용들을 복습하고 복습을 위한 프로젝트를 만들어 볼 것이다. 잠시 멈춰줬던 것을 꺼내 이것저것 붙여볼 것이다. 교과서가 있으니 나아가는 것에 불안감이 적어졌다. 재밌다. 재밌어서 하루만에 긴 강의를 끝냈다. 재밌는건 무엇이든 이겨낼 수 있는 힘이다.
 
-In the project directory, you can run:
+<br/>
 
-### `npm start`
+3.배운점
+ - 리액트 전반적 기초 : components, props, state에 대한 이해. h
+ - hook : 반드시 컴포넌트 함수 안에서 사용해야 한다. 조건문 반복문 안에선 사용하지 못한다.
+ - Context : props의 사용빈도가 많아질 때. 많은 컴포넌트를 지나쳐 데이터를 내려야할때. 사용한다.
+ - useEffect : 안과 밖의 데이터를 일치 시키는 것에 좋다. 반복되는 코드를 줄일 수 있다.
+ - useCallback : 특정 함수를 새로 만들지 않고 재사용 할 때 사용한다. 컴포넌트 최적화.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4.결과물
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+http://7uckystrike.github.io/moviepedia/
